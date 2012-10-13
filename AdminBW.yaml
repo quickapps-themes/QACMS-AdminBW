@@ -1,0 +1,21 @@
+info:
+	admin: true
+	name: Admin Blue & White
+	description: Old default backend theme for QuickApps
+	core: >1.0
+	version: 1.0
+	author: Christopher Castro <chris@quickapps.es>
+
+stylesheets:
+	all: [reset.css, styles.css]
+
+regions:
+	management-menu: Management menu
+	toolbar: Toolbar
+	help: Help
+	footer: Footer
+	dashboard_sidebar: Dashboard Sidebar
+	dashboard_main: Dashboard Main
+
+layout: default
+login_layout: login
