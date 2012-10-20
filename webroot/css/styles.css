@@ -66,8 +66,8 @@ div.checkbox { padding-top:6px;}
 #top-menu a { font-size: 12px; color: #ccc; text-decoration: none; text-shadow:none; display: block; line-height:32px; }
 #top-menu > li { padding:0 5px 0 0; }
 #top-menu > li > a { padding:0 0 0 5px; }
-#top-menu > li.selected { background:url(../img/menu-nav-white.png) no-repeat scroll right bottom transparent; padding:0 17px 0 0; }
-#top-menu > li.selected > a { color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); background:url(../img/menu-nav-white.png) no-repeat scroll 0 0 transparent; display:block; height:32px; line-height:32px; padding:0 0 0 17px; }
+#top-menu > li.active { background:url(../img/menu-nav-white.png) no-repeat scroll right bottom transparent; padding:0 17px 0 0; }
+#top-menu > li.active > a { color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); background:url(../img/menu-nav-white.png) no-repeat scroll 0 0 transparent; display:block; height:32px; line-height:32px; padding:0 0 0 17px; }
 
 
 /* content menu */
@@ -195,7 +195,7 @@ div.toolbar ul li a {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-div.toolbar ul li.selected a, div.toolbar ul li a:hover { color:#666; border:1px solid #bbb; }
+div.toolbar ul li.active a, div.toolbar ul li a:hover { color:#666; border:1px solid #bbb; }
 
 /* flash messages */
 #sessionFlash .success, #sessionFlash .error, #authMessage {
